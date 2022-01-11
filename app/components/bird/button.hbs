@@ -1,0 +1,21 @@
+<div class="section" style="display: block; width: 100%;">
+    {{#if this.isClicked}}
+        <p style="font-size: 1.2rem;">
+            <i>{{@canFly}}</i> 
+            <small 
+                style="cursor: pointer" 
+                {{ on 'click' this.toggleDisplay }}>
+                    (Click to Hide)
+                </small>
+        </p>
+        <p>Also, you have clicked the button {{ this.numClicks }} times.</p>
+    {{else}}
+        <button 
+            type="button" 
+            class="button"
+            style="font-size: 1rem; margin-top: .5rem;" 
+            {{ on 'click' this.toggleDisplay }}>
+            Can this Bird Fly? Click to Find Out!
+        </button>
+    {{/if}}
+</div>

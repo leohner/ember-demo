@@ -1,0 +1,11 @@
+<div class="jumbo">
+    {{#if @isMain }}
+        <h1>{{yield}}</h1>
+    {{else}}
+        <h2>{{yield}}</h2>
+    {{/if}}
+
+    {{#if @hasSubhead}}
+        <small>{{@subheadText}}</small>
+    {{/if}}
+</div>

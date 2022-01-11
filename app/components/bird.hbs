@@ -1,0 +1,19 @@
+<Jumbo
+    @isMain=true
+    @hasSubhead=true
+    @subheadText="{{@bird.scientificName}}">
+        {{@bird.commonName}}
+</Jumbo>
+
+<article class="rental detailed">
+    <Bird::Image
+        src={{@bird.image}}
+        alt="A picture of {{@bird.title}}"
+    />
+
+    <div class="details">
+        <p>{{@bird.description}}</p>
+        <p style="display: block; width: 100%;">Conservation Status: <span>{{@bird.conservationStatus}}</span></p>
+        <p>Can this bird fly? {{@bird.canFly}}</p>
+    </div>
+</article>

@@ -1,0 +1,10 @@
+<ul class="loop-display">
+    {{#each @birdList as |bird|}}
+        <BirdSnippet
+            @bird={{bird.model}} 
+            @statusColor={{bird.statusColor}} 
+            @canFly={{bird.canFly}} />
+    {{else}}
+        There are no more birds...
+    {{/each}}
+</ul>

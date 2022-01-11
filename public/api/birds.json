@@ -1,0 +1,50 @@
+{
+    "data": [
+      {
+        "id": "american-white-ibis",
+        "commonName": "American White Ibis",
+        "scientificName": "Eudocimus albus",
+        "description": "A bird in the ibis family of Threskiornthidae.",
+        "canFly": true,
+        "conservationStatus": "Least Concern",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/American_White_IbisII.jpg"
+      },
+      {
+        "id": "muscovy",
+        "commonName": "Muscovy",
+        "scientificName": "Cairina moschata",
+        "description": "A large duck native to the Americas.",
+        "canFly": true,
+        "conservationStatus": "Least Concern",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/MuscovyDuck.jpg"
+      },
+      {
+        "id": "atlantic-puffin",
+        "commonName": "Atlantic Puffin",
+        "scientificName": "Fratercula arctica",
+        "description": "A species of seabird in the auk family.",
+        "canFly": true,
+        "conservationStatus": "Vulnerable",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Puffin_%28Fratercula_arctica%29.jpg/1920px-Puffin_%28Fratercula_arctica%29.jpg"
+      },
+      {
+        "id": "kakapo",
+        "commonName": "Kakapo",
+        "scientificName": "Strigops habroptilus",
+        "description": "A large, flightless, nocturnal, ground-dwelling parrot of the super-family Strigodpoidea, endemic to New Zealand.",
+        "canFly": false,
+        "conservationStatus": "Critically Endangered",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sirocco_full_length_portrait.jpg"
+      },
+      {
+        "id": "great-auk",
+        "commonName": "Great Auk",
+        "scientificName": "Pinguinus impennis",
+        "description": "A species of flightless alcid that became extinct in the mid-19th century. It was the only modern species in the genus Pinguinus.",
+        "canFly": false,
+        "conservationStatus": "Extinct",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Great_Auk_%28Pinguinis_impennis%29_specimen%2C_Kelvingrove%2C_Glasgow_-_geograph.org.uk_-_1108249.jpg"
+      }
+    ]
+  }
+  

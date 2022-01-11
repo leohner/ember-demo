@@ -1,0 +1,17 @@
+<article class="rental">
+    <Bird::Image 
+        src={{@bird.image}} 
+        alt="An awesome picture of {{@bird.commonName}}"
+        title="An awesome picture of {{@bird.commonName}}" />
+    <div class="details">
+        <h2 style="display:block; width: 100%;">
+            <LinkTo @route="bird" @model={{@bird}}>
+                {{@bird.commonName}}
+            </LinkTo>
+        </h2>
+        <small style="display: block; width: 100%; font-size: 1.05rem;"><i>{{@bird.scientificName}}</i></small>
+        <p style="display: block; width: 100%;">Conservation Status: <span style="color:{{@statusColor}}">{{@bird.conservationStatus}}</span></p>
+        <div>{{@bird.description}}</div>
+        <Bird::Button @canFly={{@canFly}}></Bird::Button>
+    </div>
+</article>

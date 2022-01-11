@@ -1,0 +1,11 @@
+{
+    "data": {
+        "id": "muscovy",
+        "commonName": "Muscovy",
+        "scientificName": "Cairina moschata",
+        "description": "A large duck native to the Americas.",
+        "canFly": true,
+        "conservationStatus": "Least Concern",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/MuscovyDuck.jpg"
+    }
+}

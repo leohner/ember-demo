@@ -1,0 +1,11 @@
+{
+    "data": {
+        "id": "american-white-ibis",
+        "commonName": "American White Ibis",
+        "scientificName": "Eudocimus albus",
+        "description": "A bird in the ibis family of Threskiornthidae.",
+        "canFly": true,
+        "conservationStatus": "Least Concern",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/American_White_IbisII.jpg"
+    }
+}
